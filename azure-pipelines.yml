@@ -6,5 +6,4 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-    curl -v "http://127.0.0.1:22"
-  displayName: 'Run a multi-line script'
+    curl -H Metadata:true "http://169.254.169.254/metadata/instance?api-version=2019-06-01"
