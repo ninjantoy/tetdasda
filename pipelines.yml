@@ -2,15 +2,15 @@ resources:
   - name: myGitRepo
     type: GitRepo
     configuration:
-      gitProvider: jepatel                      # <- Change to your integration name
-      path: Eat-Sleep-Code-fun/Jfrog            # <- Change to your forked repo
+      gitProvider: jepateltest                      # <- Change to your integration name
+      path: ninjantoy/tetdasda           # <- Change to your forked repo
       branches:
         include: master
  
   - name: myBuildInfo
     type: BuildInfo
     configuration:
-      sourceArtifactory: jepatel                       # <- Change to your integration name
+      sourceArtifactory: jepateltest                       # <- Change to your integration name
       buildName: SampleApp
       buildNumber: 1     
       
